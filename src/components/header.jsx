@@ -22,11 +22,9 @@ export default function Header() {
 
     return (
         <header
-            className={`sticky top-0 z-50 transition-all duration-300 ${
-                isScrolled
-                    ? "bg-white shadow-md text-secondary"
-                    : "bg-primary text-secondary"
-            }`}
+        className={`${
+            isScrolled ? "bg-white shadow-md text-secondary" : "bg-primary text-secondary"
+        } transition-all duration-300 z-50 relative md:sticky top-0`}
         >
             <nav className="container mx-auto px-4 lg:px-8">
                 <div className="flex items-center justify-between py-4">
@@ -87,7 +85,7 @@ export default function Header() {
 
                 {/* Mobile Menu */}
                 <div
-                    className={`mt-4 md:hidden transition-all duration-300 ease-in-out ${
+                    className={`md:hidden transition-all duration-300 ease-in-out ${
                         isMenuOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
                     }`}
                 >
@@ -122,7 +120,7 @@ export default function Header() {
                         <li>
                             <a
                                 href="/coming"
-                                className="bg-secondary text-primary px-3 py-2 rounded-lg hover:bg-secondaryHover transition-all"
+                                className="hover:text-secondaryHover transition-colors"
                                 role="menuitem"
                             >
                                 Register
