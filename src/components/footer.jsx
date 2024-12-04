@@ -1,6 +1,6 @@
-export default function Footer() {
+export default function Footer({ stick }) {
     return (
-        <footer className="bg-secondary text-primary py-4 mt-8">
+        <footer className={`bg-secondary text-primary py-4 mt-8 ${stick ? "fixed bottom-0 left-0 right-0" : "relative"}`}>
             <div className="container mx-auto text-center">
                 {/* Copyright or Contact Information */}
                 <p className="text-sm">
