@@ -24,9 +24,9 @@ export default function Quiz() {
             localStorage.setItem("userAge", age);
 
             if (age >= 8 && age <= 12) {
-                router.push("/quiz/1");
+                router.push("/quiz1/comprehension");
             } else if (age >= 13 && age <= 18) {
-                router.push("/quiz/2");
+                router.push("/quiz2/comprehension");
             }
 
             setFormSubmitted(true);

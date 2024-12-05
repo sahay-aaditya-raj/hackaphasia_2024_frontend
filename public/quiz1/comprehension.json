@@ -1,0 +1,63 @@
+{
+    "content": {
+      "paragraph": "In a small village nestled between green hills, a young girl named Aanya loved to spend her days exploring the forest nearby. The forest was full of tall trees, chirping birds, and colorful butterflies. One day, while walking along a narrow trail, Aanya found a small, injured bird lying on the ground. Carefully, she carried the bird home and took care of it. She named it 'Chirpy' and made a cozy nest for it in a basket. Over the next few weeks, Chirpy grew stronger and began to fly again. Aanya felt happy and proud when she saw Chirpy soaring in the sky. She realized that kindness and patience could make a big difference, even for the smallest creatures.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What did Aanya love to do in her free time?",
+          "options": {
+            "a": "Play games in her village",
+            "b": "Explore the forest nearby",
+            "c": "Read books at home",
+            "d": "Climb the hills"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 2,
+          "question": "What did Aanya find on the forest trail?",
+          "options": {
+            "a": "A colorful butterfly",
+            "b": "A small, injured bird",
+            "c": "A broken nest",
+            "d": "A tall tree"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 3,
+          "question": "What name did Aanya give to the bird she took care of?",
+          "options": {
+            "a": "Fluffy",
+            "b": "Chirpy",
+            "c": "Sparky",
+            "d": "Tweety"
+          },
+          "answer": "b"
+        },
+        {
+          "id": 4,
+          "question": "What lesson did Aanya learn from helping Chirpy?",
+          "options": {
+            "a": "Hard work always pays off",
+            "b": "It is important to keep trying",
+            "c": "Kindness and patience can make a big difference",
+            "d": "Nature is full of surprises"
+          },
+          "answer": "c"
+        },
+        {
+          "id": 5,
+          "question": "Why was Aanya proud when Chirpy started flying again?",
+          "options": {
+            "a": "She loved watching birds fly",
+            "b": "She realized her efforts had helped Chirpy recover",
+            "c": "She wanted to show her friends",
+            "d": "She thought Chirpy would stay with her forever"
+          },
+          "answer": "b"
+        }
+      ]
+    }
+  }
+  

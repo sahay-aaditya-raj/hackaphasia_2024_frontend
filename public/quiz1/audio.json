@@ -1,0 +1,45 @@
+{
+    "questions": [
+      {
+        "question": "What is Diwali also known as?",
+        "options": {
+          "a": "The Festival of Colors",
+          "b": "The Festival of Lights",
+          "c": "The Festival of Flowers",
+          "d": "The Festival of Music"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What do people do during Diwali?",
+        "options": {
+          "a": "Decorate their homes with oil lamps, candles, and colorful rangoli patterns",
+          "b": "Throw colored powders and water at each other",
+          "c": "Fast and pray",
+          "d": "Sing and dance in the streets"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "What is the significance of Diwali?",
+        "options": {
+          "a": "It signifies the victory of light over darkness and good over evil",
+          "b": "It celebrates the harvest season",
+          "c": "It has replaced all other cricket tournaments",
+          "d": "It marks the beginning of winter"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "How do festivals like Diwali and Holi impact the community?",
+        "options": {
+          "a": "They create division among people",
+          "b": "They strengthen the bonds of community and family",
+          "c": "They lead to increased pollution",
+          "d": "They cause financial strain"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+  

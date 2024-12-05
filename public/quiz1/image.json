@@ -1,0 +1,55 @@
+{
+    "questions": [
+      {
+        "question": "What activity are the children engaged in?",
+        "options": {
+          "a": "Playing a board game",
+          "b": "Gardening",
+          "c": "Riding bicycles",
+          "d": "Painting"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What tools can you see the children using in the garden?",
+        "options": {
+          "a": "Shovel and rake",
+          "b": "Paintbrush and palette",
+          "c": "Hammer and nails",
+          "d": "Books and pens"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "What type of plants are the children working on?",
+        "options": {
+          "a": "Flowers",
+          "b": "Vegetables",
+          "c": "Trees",
+          "d": "Cacti"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "How many children are visible in the image?",
+        "options": {
+          "a": "Two",
+          "b": "Three",
+          "c": "Four",
+          "d": "Five"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is the overall mood of the activity in the image?",
+        "options": {
+          "a": "Bored",
+          "b": "Joyful",
+          "c": "Serious",
+          "d": "Confused"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }
+  
