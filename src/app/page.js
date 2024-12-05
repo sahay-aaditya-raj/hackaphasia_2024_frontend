@@ -9,6 +9,18 @@ export default function Home() {
     <>
       <Header/>
       <Hero />
+      <main className="md:mx-16 mt-2 flex justify-between gap-4">
+        <div className="w-full">
+          <div className="rounded-md bg-primaryHover">
+            4
+          </div>
+        </div>
+        <div className="w-full">
+        <div className="rounded-md bg-primaryHover">
+            4
+          </div>
+        </div>
+      </main>
       <Footer />
     </>
 

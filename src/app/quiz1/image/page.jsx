@@ -27,15 +27,44 @@ export default function ImageQuiz() {
     return () => clearInterval(intervalId); // Clean up timer
   }, []);
 
-  const handleNextSection = () => {
-    // Store the marks and time taken for image section
+  const handleNextSection = async () => {
+    // Retrieve quiz data and user info from localStorage
     const quizData = JSON.parse(localStorage.getItem("quiz1")) || {};
     quizData.image = { marks, timeTaken };
     localStorage.setItem("quiz1", JSON.stringify(quizData));
-
-    console.log(localStorage.getItem("quiz1"));
-    console.log(localStorage.getItem("userName"));
-    console.log(localStorage.getItem("userAge"));
+  
+    const userName = localStorage.getItem("userName");
+    const userAge = localStorage.getItem("userAge");
+  
+    // Log data to console
+    console.log("Quiz Data:", quizData);
+    console.log("User Name:", userName);
+    console.log("User Age:", userAge);
+  
+    // Send data to backend
+    try {
+      const response = await fetch("http://192.168.152.118:5000/quiz1", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          quizData,
+          userName,
+          userAge,
+        }),
+      });
+  
+      if (!response.ok) {
+        throw new Error("Failed to submit quiz data.");
+      }
+  
+      const result = await response.json();
+      console.log("Response from server:", result);
+    } catch (error) {
+      console.error("Error submitting data:", error);
+      alert("Failed to submit data. Please try again.");
+    }
   };
 
   const handleAnswerChange = (questionId, selectedOption) => {

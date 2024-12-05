@@ -36,12 +36,17 @@ export default function Header() {
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-6 text-sm lg:text-base items-center">
                         <li>
-                            <a href="/categories" className="hover:text-secondaryHover transition-colors">
+                            <a href="/quiz" className="hover:text-secondaryHover transition-colors">
                                 Quiz
                             </a>
                         </li>
                         <li>
-                            <a href="/categories" className="hover:text-secondaryHover transition-colors">
+                            <a href="/chat" className="hover:text-secondaryHover transition-colors">
+                                ChatBot
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/coming" className="hover:text-secondaryHover transition-colors">
                                 Schemes
                             </a>
                         </li>
@@ -92,7 +97,7 @@ export default function Header() {
                     <ul className="flex flex-col space-y-4 text-sm" role="menu">
                         <li>
                             <a
-                                href="/categories"
+                                href="/quiz"
                                 className="hover:text-secondaryHover transition-colors"
                                 role="menuitem"
                             >
@@ -101,7 +106,16 @@ export default function Header() {
                         </li>
                         <li>
                             <a
-                                href="/categories"
+                                href="/chat"
+                                className="hover:text-secondaryHover transition-colors"
+                                role="menuitem"
+                            >
+                                ChatBot
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="/coming"
                                 className="hover:text-secondaryHover transition-colors"
                                 role="menuitem"
                             >
